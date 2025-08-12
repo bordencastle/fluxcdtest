@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
 metadata:
   name: codecentric
-  namespace: flux-system
+  namespace: keycloak
 spec:
   url: https://codecentric.github.io/helm-charts
   interval: 10m

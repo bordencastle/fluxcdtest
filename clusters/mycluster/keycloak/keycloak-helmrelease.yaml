@@ -12,7 +12,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: codecentric
-        namespace: flux-system
+        namespace: keycloak
   values:
     replicaCount: 1
     keycloak:
